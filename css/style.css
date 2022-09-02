@@ -1,0 +1,265 @@
+:root {
+    --mainColor: #000000;
+    --secondColor: #28d7cc;
+    --mainFont: 'Source Serif Pro', serif;
+    --secondFont: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Source Serif Pro', serif;
+    font-family:var(--mainFont);
+    font-size: 20px;
+    color: var(--mainColor);
+}
+
+div.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: var(--mainColor);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    font-size: .9rem;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    font-weight: bolder;
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+
+ul {
+    font-family: 'Ubuntu', sans-serif;
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    text-align: justify;
+    font-size: .8rem;
+}
+
+li {
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
+
+#bag-icon{
+    font-size: 1rem;
+}
+
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1
+}
+
+section#description {
+    display: flex;
+    height: 27rem;
+    flex-direction: column;
+    flex-grow: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    font-size: 1rem;
+    padding-top: 60px;
+
+}
+
+h1#main-title {
+    width: 50%;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: bolder;
+    margin-bottom: 1.4rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    padding: 2rem;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main-imgs {
+
+    width: 550px;
+    height: 330px;
+    margin-right: 3rem;
+
+}
+
+.img-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: .8rem;
+}
+
+.title-desc{
+    color: #000000e3;
+    font-size: .8rem;
+    font-family:var(--secondFont)
+}
+
+.small-sec {
+    height: 230px;
+    align-items: center;
+}
+
+.btn {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 8rem;
+    height: 2.7rem;
+    text-decoration: none;
+    background-color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(22, 20, 20);
+}
+
+section#pink {
+    height: 37rem;
+    background-color: rgb(244, 234, 244);
+    padding-left: 1rem;
+}
+
+#asideText {
+    width: 53%;
+    padding-top: 8rem;  
+}
+
+h1#desc{
+    font-size: 2.1rem;
+    width:15rem ;
+    margin-bottom: 2rem;
+}
+
+p#desc{
+    width:20.5rem ;
+    margin-bottom: 3rem;
+    font-family: var(--secondFont);
+    font-size: .9rem;
+
+}
+
+#asideImg {
+    padding-top: 5rem;
+}
+
+#last-sec {
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem
+}
+
+p#follow {
+    align-self: center;
+    text-align: center;
+    font-size: 2.5rem;
+    height: 15rem;
+    padding-top: 7rem;
+}
+
+#slider-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.last-imgs {
+    width: 14.2rem;
+    margin-left: 1.2rem;
+    margin-right: 0;
+}
+section#footer-sec {
+    height: 26rem;
+    background-color: #ebe4eb;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    align-content: center;
+}
+
+#subscribe{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    height: 6rem;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email{
+    width: 20rem;
+    text-align: start;
+    padding-bottom: 5px;
+}
+
+input{
+    margin-bottom: .8rem;
+    width: 20rem;
+    height: 2.4rem;
+    padding: 10px;
+    text-align:justify;
+    font-size: medium;
+    background-color:rgb(254, 248, 248);
+    border: none;
+}
+
+input:focus{
+    outline: none
+}
+
+footer-tab {
+    display: flex;
+    height: 1.3rem;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+#footer-list{
+    padding-top: 4rem;
+    width: 100%;
+    justify-items: center center;
+    font-size: 1rem;
+
+} 
